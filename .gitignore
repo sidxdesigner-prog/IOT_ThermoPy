@@ -1,0 +1,56 @@
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+### Ambientes Virtuais (Venv) ###
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+### Variáveis de Ambiente (Segurança) ###
+.env
+.venv
+env/
+venv/
+ENV/
+*.env
+
+### IDEs (VS Code, PyCharm, etc) ###
+.vscode/
+.idea/
+*.swp
+*.swo
+
+### Sistema Operacional ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### IoT / Logs ###
+*.log
+data/*.csv
+data/*.json
+!data/placeholder.txt
