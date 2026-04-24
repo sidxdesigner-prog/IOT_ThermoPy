@@ -1,0 +1,2 @@
+def clima():
+    return "tendencia"

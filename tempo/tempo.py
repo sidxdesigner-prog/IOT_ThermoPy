@@ -1,0 +1,2 @@
+def tempo():
+    return "valor"
