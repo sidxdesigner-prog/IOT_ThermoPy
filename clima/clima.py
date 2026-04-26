@@ -15,7 +15,7 @@ def clima(dia, temp, list_temp):
         clock = time.time()
         lista.append({"timestamp": clock, "temperatura": temp})
     else:  
-        with open('IOT/Python/Atividade_em_grupo_01/sensor.json', 'r+', encoding="utf-8") as dados:
+        with open('IOT_ThermoPy/sensor.json', 'r+', encoding="utf-8") as dados:
             conteudo = json.load(dados)         
         clock = time.time()
         lista.append({"timestamp": clock, "temperatura": conteudo[dia_temp][-1]["temperatura"]})
@@ -28,6 +28,6 @@ def clima(dia, temp, list_temp):
     if lista[0]["temperatura"] > lista[1]["temperatura"]:
         lista.append({"tendencia": "frio"})
     else:
-       lista.append({"tendencia": "quente"})
+        lista.append({"tendencia": "quente"})
 
     return lista

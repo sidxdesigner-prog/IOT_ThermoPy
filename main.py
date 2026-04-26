@@ -35,7 +35,7 @@ def main(loop):
         for j in range (fluxo - 14):
             time.sleep(temporizador)
             print(".", end="", flush="True")  
-              
+
         dias= clima(key, temperatura, temperatura_iniciais)
         tendencia = dias[-1]["tendencia"]
         dias.pop()
@@ -51,8 +51,8 @@ def main(loop):
             print(".", end="", flush="True")
                 
         for k in range(reads):
-           leituras = tempo(key, tendencia, potencia, temperatura, reads)
-           
+            leituras = tempo(key, tendencia, potencia, temperatura, reads)
+
         for a in range(len(leituras)):
             data[key].append(leituras[a])
 
@@ -62,7 +62,7 @@ def main(loop):
             time.sleep(temporizador)
             print(".", end="", flush="True")
             
-        with open('IOT/Python/Atividade_em_grupo_01/sensor.json', 'w+', encoding="utf-8") as temp_file:
+        with open('IOT_ThermoPy/sensor.json', 'w+', encoding="utf-8") as temp_file:
             json.dump(data, temp_file, ensure_ascii=False, indent=2)
             
     
