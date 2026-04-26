@@ -1,0 +1,173 @@
+{
+  "Ações": [
+    "dia_1",
+    {
+      "leitura_3": {
+        "timestamp": 1777163282.5678313,
+        "Ação": "arcondionado ligado"
+      }
+    },
+    {
+      "leitura_5": {
+        "timestamp": 1777163282.7697299,
+        "Ação": "arcondionado desligado"
+      }
+    },
+    "dia_2",
+    {
+      "leitura_3": {
+        "timestamp": 1777163286.3942728,
+        "Ação": "arcondionado ligado"
+      }
+    },
+    {
+      "leitura_4": {
+        "timestamp": 1777163286.3942807,
+        "Ação": "arcondionado desligado"
+      }
+    },
+    {
+      "leitura_5": {
+        "timestamp": 1777163286.3942852,
+        "Ação": "arcondionado ligado"
+      }
+    },
+    "dia_2",
+    {
+      "leitura_3": {
+        "timestamp": 1777163286.3951926,
+        "Ação": "arcondionado ligado"
+      }
+    },
+    {
+      "leitura_4": {
+        "timestamp": 1777163286.3951967,
+        "Ação": "arcondionado desligado"
+      }
+    },
+    {
+      "leitura_5": {
+        "timestamp": 1777163286.395199,
+        "Ação": "arcondionado ligado"
+      }
+    },
+    "dia_2",
+    {
+      "leitura_3": {
+        "timestamp": 1777163286.3960457,
+        "Ação": "arcondionado ligado"
+      }
+    },
+    {
+      "leitura_4": {
+        "timestamp": 1777163286.3960497,
+        "Ação": "arcondionado desligado"
+      }
+    },
+    {
+      "leitura_5": {
+        "timestamp": 1777163286.3960516,
+        "Ação": "arcondionado ligado"
+      }
+    },
+    "dia_3",
+    {
+      "leitura_3": {
+        "timestamp": 1777163290.0652905,
+        "Ação": "aquecedor ligado"
+      }
+    },
+    {
+      "leitura_5": {
+        "timestamp": 1777163290.065305,
+        "Ação": "aquecedor desligado"
+      }
+    },
+    "dia_3",
+    {
+      "leitura_3": {
+        "timestamp": 1777163290.066348,
+        "Ação": "aquecedor ligado"
+      }
+    },
+    {
+      "leitura_5": {
+        "timestamp": 1777163290.0663533,
+        "Ação": "aquecedor desligado"
+      }
+    },
+    "dia_3",
+    {
+      "leitura_3": {
+        "timestamp": 1777163290.0672214,
+        "Ação": "aquecedor ligado"
+      }
+    },
+    {
+      "leitura_5": {
+        "timestamp": 1777163290.0672262,
+        "Ação": "aquecedor desligado"
+      }
+    },
+    "dia_4",
+    {
+      "leitura_3": {
+        "timestamp": 1777163293.6847217,
+        "Ação": "arcondionado ligado"
+      }
+    },
+    {
+      "leitura_4": {
+        "timestamp": 1777163293.6847277,
+        "Ação": "arcondionado desligado"
+      }
+    },
+    "dia_4",
+    {
+      "leitura_3": {
+        "timestamp": 1777163293.6858912,
+        "Ação": "arcondionado ligado"
+      }
+    },
+    {
+      "leitura_4": {
+        "timestamp": 1777163293.685895,
+        "Ação": "arcondionado desligado"
+      }
+    },
+    "dia_4",
+    {
+      "leitura_3": {
+        "timestamp": 1777163293.686981,
+        "Ação": "arcondionado ligado"
+      }
+    },
+    {
+      "leitura_4": {
+        "timestamp": 1777163293.6869848,
+        "Ação": "arcondionado desligado"
+      }
+    },
+    "dia_5",
+    {
+      "leitura_3": {
+        "timestamp": 1777163297.3634074,
+        "Ação": "arcondionado ligado"
+      }
+    },
+    "dia_5",
+    {
+      "leitura_3": {
+        "timestamp": 1777163297.3647816,
+        "Ação": "arcondionado ligado"
+      }
+    },
+    "dia_5",
+    {
+      "leitura_3": {
+        "timestamp": 1777163297.3659081,
+        "Ação": "arcondionado ligado"
+      }
+    }
+  ]
+}
