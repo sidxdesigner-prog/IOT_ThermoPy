@@ -1,0 +1,24 @@
+{
+  "Ações": [
+    "dia_1",
+    {
+      "timestamp": 1777293288.6386993,
+      "ação": "arcondicionado Ligado"
+    },
+    "dia_2",
+    {
+      "timestamp": 1777293292.3732064,
+      "ação": "aquecedor Ligado"
+    },
+    "dia_2",
+    {
+      "timestamp": 1777293292.3840845,
+      "ação": "aquecedor Ligado"
+    },
+    "dia_2",
+    {
+      "timestamp": 1777293292.4001114,
+      "ação": "aquecedor Ligado"
+    }
+  ]
+}
