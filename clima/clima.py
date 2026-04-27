@@ -15,7 +15,7 @@ def clima(dia, temp, list_temp):
         clock = time.time()
         lista.append({"timestamp": clock, "temperatura": temp})
     else:  
-        with open('IOT_ThermoPy/sensor.json', 'r+', encoding="utf-8") as dados:
+        with open('sensor.json', 'r+', encoding="utf-8") as dados:
             conteudo = json.load(dados)         
         clock = time.time()
         lista.append({"timestamp": clock, "temperatura": conteudo[dia_temp][-1]["temperatura"]})

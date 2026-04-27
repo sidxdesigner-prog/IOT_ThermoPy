@@ -1,46 +1,46 @@
 {
   "dia_1": [
     {
-      "timestamp": 1777230606.2953348,
+      "timestamp": 1777293287.6754274,
       "temperatura": 28
     },
     {
-      "timestamp": 1777230606.4956129,
+      "timestamp": 1777293287.8755567,
       "temperatura": 34
     },
     {
-      "timestamp": 1777230607.2595034,
-      "temperatura": 34
-    },
-    {
-      "timestamp": 1777230607.259506,
+      "timestamp": 1777293288.638698,
       "temperatura": 40
     },
     {
-      "timestamp": 1777230607.259507,
-      "temperatura": 46
+      "timestamp": 1777293288.6387026,
+      "temperatura": 34.5
+    },
+    {
+      "timestamp": 1777293288.6387043,
+      "temperatura": 29.0
     }
   ],
   "dia_2": [
     {
-      "timestamp": 1777230610.1160274,
-      "temperatura": 46
+      "timestamp": 1777293291.4122496,
+      "temperatura": 29.0
     },
     {
-      "timestamp": 1777230610.3161604,
-      "temperatura": 39
+      "timestamp": 1777293291.6123672,
+      "temperatura": 22.0
     },
     {
-      "timestamp": 1777230611.0823655,
-      "temperatura": 39
+      "timestamp": 1777293292.4001076,
+      "temperatura": 17.0
     },
     {
-      "timestamp": 1777230611.0823686,
-      "temperatura": 34
+      "timestamp": 1777293292.400111,
+      "temperatura": 12.0
     },
     {
-      "timestamp": 1777230611.0823693,
-      "temperatura": 29
+      "timestamp": 1777293292.4001145,
+      "temperatura": 18.5
     }
   ]
 }

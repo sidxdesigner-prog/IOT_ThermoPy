@@ -62,7 +62,7 @@ def main(loop):
             time.sleep(temporizador)
             print(".", end="", flush="True")
             
-        with open('IOT_ThermoPy/sensor.json', 'w+', encoding="utf-8") as temp_file:
+        with open('sensor.json', 'w+', encoding="utf-8") as temp_file:
             json.dump(data, temp_file, ensure_ascii=False, indent=2)
             
     
