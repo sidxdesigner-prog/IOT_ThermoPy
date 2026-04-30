@@ -7,9 +7,9 @@ repeat= 25
 temporizador = 0.05
 
 
-print("-" * 65)
+print("=" * 65)
 print("Seja bem vindo ao simulador de alteração de temperatuas com IOT")
-print("-" * 65, "\n")
+print("=" * 65, "\n")
 looping = int(input("de quantos dias deseja gerar o relátorio? "))
 
 for num in range(looping):
@@ -61,7 +61,7 @@ for num in range(looping):
 
     input("\npressione qualquer tecla para continuar.....\n")
 
-print("-" * 65)
+print("=" * 65)
 print("Obrigado por participar da versão beta desde projeto")
 print(f"Sistema desenvolvido por {dev_1}, {dev_2} e {gerente}")
-print("-" * 65, "\n")
+print("=" * 65, "\n")

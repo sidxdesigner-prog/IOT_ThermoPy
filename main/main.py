@@ -1,6 +1,6 @@
 import json
 from clima.clima import clima
-from tempo.tempo import tempo
+from tempo.tempo import processamento_tempo
 
 def max_and_min(day, data):
     min_temp = max_temp = data[day][0]["temperatura"]
@@ -37,7 +37,7 @@ def main(num):
     for value in dic_of_clima:
         data[day].append(value)
         
-    action_aircondtioner, action_heater, dict_of_tempo = tempo(day, tendencia, potencia, temperatura, reads)
+    action_aircondtioner, action_heater, dict_of_tempo = processamento_tempo(day, tendencia, potencia, temperatura, reads)
     
 
     for value in dict_of_tempo:
