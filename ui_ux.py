@@ -62,6 +62,6 @@ for num in range(looping):
     input("\npressione qualquer tecla para continuar.....\n")
 
 print("=" * 65)
-print("Obrigado por participar da versão beta desde projeto")
-print(f"Sistema desenvolvido por {dev_1}, {dev_2} e {gerente}")
+print("     Obrigado por participar da versão beta desde projeto")
+print(f"    Sistema desenvolvido por {dev_1}, {dev_2} e {gerente}")
 print("=" * 65, "\n")

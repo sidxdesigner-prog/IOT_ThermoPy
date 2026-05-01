@@ -1,5 +1,5 @@
 import json
-from clima.clima import clima
+from clima.clima import executar_simulacao_climatica
 from tempo.tempo import processamento_tempo
 
 def max_and_min(day, data):
@@ -29,7 +29,7 @@ def main(num):
     if day not in data:
         data[day] = []
 
-    dic_of_clima= clima(temp_day, day, temperatura)
+    dic_of_clima= executar_simulacao_climatica(temp_day, day, temperatura)
     tendencia = dic_of_clima[-1]["tendencia"]
     dic_of_clima.pop()
     temperatura = dic_of_clima[-1]["temperatura"]

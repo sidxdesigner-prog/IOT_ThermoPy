@@ -1,4 +1,4 @@
-import random, time, json
+import time, json
 
 # FUNÇÃO 2: CONTAGEM DE ATIVAÇÕES
 
@@ -28,7 +28,7 @@ def contar_ativacoes(dia, acoes):
 def processamento_tempo(dia, tendencia, potencia, temperatura, quantidade_de_leituras):
 
     referencia = 5
-    graus = 1
+    graus = 2.3
 
     aparelhos = {
         "ar": False,
@@ -39,7 +39,7 @@ def processamento_tempo(dia, tendencia, potencia, temperatura, quantidade_de_lei
 
     # Carregar JSON
     try:
-        with open('tempo/acoes.json', 'r', encoding="utf-8") as arquivo:
+        with open('acoes.json', 'r', encoding="utf-8") as arquivo:
             acoes = json.load(arquivo)
     except:
         acoes = {}
@@ -98,7 +98,7 @@ def processamento_tempo(dia, tendencia, potencia, temperatura, quantidade_de_lei
         time.sleep(1)
 
     # Salvar JSON
-    with open('tempo/acoes.json', 'w', encoding="utf-8") as arquivo:
+    with open('acoes.json', 'w', encoding="utf-8") as arquivo:
         json.dump(acoes, arquivo,ensure_ascii= False , indent=4)
 
     total_ar, total_aquecedor = contar_ativacoes(dia, acoes)

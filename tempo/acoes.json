@@ -1,0 +1,18 @@
+{
+    "dia_1": [
+        {
+            "timestamp": 1777641514.330247,
+            "acao": "ar ligado"
+        },
+        {
+            "timestamp": 1777641735.008523,
+            "acao": "ar ligado"
+        }
+    ],
+    "dia_2": [
+        {
+            "timestamp": 1777641745.4785297,
+            "acao": "aquecedor ligado"
+        }
+    ]
+}
